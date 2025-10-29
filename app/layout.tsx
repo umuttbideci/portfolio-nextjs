@@ -3,7 +3,10 @@ import "./globals.css";
 import Head from "next/head";
 
 export const metadata = {
-  title: "Arda Özyiğit",
+  title: "Umut Bideci",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +24,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://ardaozyigit.info",
               "@type": "WebSite",
-              name: "Arda Özyiğit",
+              name: "Umut Bideci",
               url: "https://ardaozyigit.info",
             }),
           }}

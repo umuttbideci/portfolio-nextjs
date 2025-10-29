@@ -6,17 +6,15 @@ export default function Hero() {
       }
     >
       <div className="w-full leading-none">
-        <p className="font-medium text-3xl">Hello! I&apos;m Arda,</p>
+        <p className="font-medium text-3xl">Hello! I&apos;m Umut,</p>
         <p className="font-extrabold text-[6em] relative left-[-10px] pt-2.5">
-          Computer
+          High School
         </p>
         <p className="font-extrabold text-[6em] relative left-[-10px] ">
-          Engineering
-        </p>
-        <p className="font-extrabold text-[6em] relative left-[-10px]">
           Student
         </p>
-        <p className="font-medium text-3xl pt-4">studying at PoliTo, Italy.</p>
+        <p className="font-medium text-3xl pt-4">studying at Inanc High School.</p>
+        <p className="font-medium text-2xl pt-2">passionate about Computer Science and Music.</p>
       </div>
       <div className="absolute top-0 right-0 h-full w-full">
         <svg
@@ -30,7 +28,7 @@ export default function Hero() {
             </g>
           </mask>
           <image
-            xlinkHref="/arda.jpg"
+            xlinkHref="/umut.jpeg"
             mask="url(#svgmask3)"
             className="w-[750px] h-[500px]"
           ></image>
